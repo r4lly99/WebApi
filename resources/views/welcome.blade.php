@@ -2,15 +2,15 @@
 
 @section('content')
 <style>
- #mapid { height: 180px; }
+   #mapid { height: 180px; }
 </style>
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
+                <div class="panel-heading">DKI Saluran Air</div>
                 <div class="panel-body">
-                    <div id="mapid" style="width: 600px; height: 400px;"></div>
+                    <div id="mapid" style="width: 920px; height: 400px;"></div>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
     L.marker([-6.1690,106.8232]).addTo(mymap)
     .bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 
-    L.circle([-6.1690,106.10], 500, {
+    L.circle([-6.1690,106.8242], 500, {
         color: 'red',
         fillColor: '#f03',
         fillOpacity: 0.5
